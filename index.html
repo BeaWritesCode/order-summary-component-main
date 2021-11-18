@@ -4,28 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Order summary card</title>
+
+  <style>
+    body {
+      background: hsl(225, 100%, 98%) none;
+      font-family: 'Red Hat Display', sans-serif;
+      font-size: 16px;
+
+      width: 375px;
+      margin: auto;
+      text-align: center;
+    }
+
+     .decorative-container {
+      background: hsl(225, 100%, 94%) none;
+      padding: 38px 24px;
+      margin: 70px 0;
+    }
+
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Order Summary</h1>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-  </header>
-  
-  <main>
-    <div class="container">
-      <h2>Annual Plan</h2>
-      <div class="price">$59.99/year</div>
-      <a href="./basket.html">Change</a>
-    </div>
+  <div class="decorative-container">
+    <header>
+      <h1>Order Summary</h1>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    </header>
+    
+    <main>
+      <div class="container">
+        <h2>Annual Plan</h2>
+        <div class="price">$59.99/year</div>
+        <a href="./basket.html">Change</a>
+      </div>
 
-    <button type="submit">Proceed to Payment</button>
-    <button>Cancel Order</button>
-  </main>
-  
-  <footer class="attribution">
-    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
-    <p>Coded by <a href="https://github.com/BeaWritesCode">Bea</a>.</p>
-  </footer>
+      <button type="submit">Proceed to Payment</button>
+      <button>Cancel Order</button>
+    </main>
+    
+    <footer class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+      <p>Coded by <a href="https://github.com/BeaWritesCode">Bea</a>.</p>
+    </footer>
+  </div>
 </body>
 </html>
