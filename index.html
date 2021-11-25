@@ -24,13 +24,6 @@
       text-align: center;
     }
 
-    .decorative-container {
-      background: hsl(225, 100%, 98%) url(./images/illustration-hero.svg) no-repeat left top;
-      padding: 220px 24px 32px 24px;
-      margin: 1rem 0;
-      border-radius: 1rem;
-    }
-
     h1, h2 {
       color: hsl(223, 47%, 23%);
     }
@@ -51,6 +44,17 @@
       margin-top: 1rem;
     }
 
+    .decorative-container {
+      background: hsl(225, 100%, 98%) url(./images/illustration-hero.svg) no-repeat left top;
+      padding: 220px 24px 32px 24px;
+      margin: 1rem 0;
+      border-radius: 1rem;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
     .basket-container {
       background: hsl(225, 100%, 96%) url('./images/icon-music.svg') no-repeat 1rem center;
       border-radius: .5rem;
@@ -58,15 +62,10 @@
       padding: 1rem 1rem 1rem calc(2rem + 48px);
       min-height: calc(2rem + 48px);
       font-size: .8rem;
-
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-    }
-
-    a:hover {
-      text-decoration: none;
     }
 
     .purchase-link,
@@ -96,7 +95,6 @@
     .purchase-link:hover {
       color: white;
       box-shadow: 0 1rem 1rem rgb(0 0 0 / 0.4);
-
     }
   </style>
 </head>
