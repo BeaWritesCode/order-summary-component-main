@@ -19,9 +19,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 I've been a developer for many years but I've not written any HTML or CSS for a (very) long time. Inevitably, building for the web has changed radically - no more floated layouts for a start! I've decided to go back to basics so I'm doing beginners tutorials and this is my first effort.
 
-I don't know if it'll be a good idea but I'm going to update this readme as I go along so I have a record of my thinking at each stage. Naturally, I only just thought of this and I'm several commits in but hey ho!
-
 The provided style guide is a lot more sparse than I'd normally like but I've decided to take that as leeway to interpret some aspects with my own preferences. For example, what does "The designs were created to the following widths" mean, exactly? Why strict px specifications, suggestive of media queries, instead of responsive, flexible growth as the screen dimensions increase? Or is it expected that these are max-width?
+
+Given the supplied background images I decided that the design and style guide require media queries to match the widths of the images so adjusted my CSS accordingly, removing the background image altogether for screen widths greater than the widest of 1440px because it looks silly.
 
 (From the readme template)
 Users should be able to:
