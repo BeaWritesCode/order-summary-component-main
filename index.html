@@ -14,7 +14,7 @@
   <link href="./reset.css" rel="stylesheet">
   <style>
     body {
-      background: hsl(225, 100%, 94%) none;
+      background: hsl(225, 100%, 94%) url(./images/pattern-background-mobile.svg) no-repeat left top;
       font-family: 'Red Hat Display', sans-serif;
       font-size: 16px;
       color: hsl(224, 23%, 55%);
@@ -44,10 +44,22 @@
 
     .decorative-container {
       background: hsl(225, 100%, 98%) url(./images/illustration-hero.svg) no-repeat left top;
-      padding: 220px 24px 32px 24px;
+      padding: 220px 1.5rem 2rem 1.5rem;
       margin: 1rem auto;
       border-radius: 1rem;
-      max-width: 375px;
+      width: 375px;
+    }
+
+    @media (min-width: 1440px) {
+      body {
+        background-image: url(./images/pattern-background-desktop.svg);
+      }
+
+      .decorative-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 450px;
+      }
     }
 
     a:hover {
