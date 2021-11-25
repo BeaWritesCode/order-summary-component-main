@@ -69,29 +69,31 @@
       text-decoration: none;
     }
 
-    button {
+    .purchase-link,
+    .cancel-link {
       width: 100%;
       border-radius: .5rem;
-      border: 0;
+      text-decoration: none;
       background-color: transparent;
       color: hsl(224, 23%, 55%);
       font-weight: 700;
       margin-top: 1rem;
+      display:block;
     }
 
-    button:hover {
-      cursor: pointer;
+    .purchase-link:hover,
+    .cancel-link:hover {
       text-decoration: underline;
     }
 
-    .purchase-button {
+    .purchase-link {
       background-color: hsl(245, 75%, 52%);
       color: hsl(225, 100%, 98%);
       box-shadow: 0 .5rem 1rem rgb(0 0 0 / 0.2);
       padding: 1rem;
     }
 
-    .purchase-button:hover {
+    .purchase-link:hover {
       color: white;
       box-shadow: 0 1rem 1rem rgb(0 0 0 / 0.4);
 
@@ -111,11 +113,11 @@
           <h2>Annual Plan</h2>
           <div class="price">$59.99/year</div>
         </div>
-        <a href="./basket.html">Change</a>
+        <a href="./dummy-page.html">Change</a>
       </div>
 
-      <button type="submit" class="purchase-button">Proceed to Payment</button>
-      <button>Cancel Order</button>
+      <a class="purchase-link" href="dummy-page.html">Proceed to Payment</a>
+      <a class="cancel-link" href="dummy-page.html">Cancel Order</a>
     </main>
   </div>
 
