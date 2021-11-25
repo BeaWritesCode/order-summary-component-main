@@ -52,10 +52,49 @@
     }
 
     .basket-container {
-      background: hsl(225, 100%, 96%) url('./images/icon-music.svg') no-repeat 1rem 1rem;
+      background: hsl(225, 100%, 96%) url('./images/icon-music.svg') no-repeat 1rem center;
       border-radius: .5rem;
       margin: 1rem 0;
+      padding: 1rem 1rem 1rem calc(2rem + 48px);
+      min-height: calc(2rem + 48px);
+      font-size: .8rem;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    button {
+      width: 100%;
+      border-radius: .5rem;
+      border: 0;
+      background-color: transparent;
+      color: hsl(224, 23%, 55%);
+      font-weight: 700;
+      margin-top: 1rem;
+    }
+
+    button:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .purchase-button {
+      background-color: hsl(245, 75%, 52%);
+      color: hsl(225, 100%, 98%);
+      box-shadow: 0 .5rem 1rem rgb(0 0 0 / 0.2);
       padding: 1rem;
+    }
+
+    .purchase-button:hover {
+      color: white;
+      box-shadow: 0 1rem 1rem rgb(0 0 0 / 0.4);
+
     }
   </style>
 </head>
@@ -68,12 +107,14 @@
 
     <main>
       <div class="basket-container">
-        <h2>Annual Plan</h2>
-        <div class="price">$59.99/year</div>
+        <div class="selection-wrapper">
+          <h2>Annual Plan</h2>
+          <div class="price">$59.99/year</div>
+        </div>
         <a href="./basket.html">Change</a>
       </div>
 
-      <button type="submit">Proceed to Payment</button>
+      <button type="submit" class="purchase-button">Proceed to Payment</button>
       <button>Cancel Order</button>
     </main>
   </div>
