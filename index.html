@@ -68,6 +68,12 @@
       align-items: center;
     }
 
+    .order-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
     .purchase-link,
     .cancel-link {
       width: 100%;
@@ -114,8 +120,12 @@
         <a href="./dummy-page.html">Change</a>
       </div>
 
-      <a class="purchase-link" href="dummy-page.html">Proceed to Payment</a>
-      <a class="cancel-link" href="dummy-page.html">Cancel Order</a>
+      <nav>
+        <ul class="order-links">
+          <li><a class="purchase-link" href="dummy-page.html">Proceed to Payment</a></li>
+          <li><a class="cancel-link" href="dummy-page.html">Cancel Order</a></li>
+        </ul>
+      </nav>
     </main>
   </div>
 
