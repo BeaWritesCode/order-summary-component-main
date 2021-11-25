@@ -40,9 +40,11 @@ Users should be able to:
 
 I don't know what CSS needs to be reset any more! I don't even know if it's really necessary these days but a little digging suggests it's still a good idea. Since it's so subjective, could take me hours to investigate and I only need some basics for this exercise I've taken the simple option and used Andy Bell's reset on face value.
 
+I have only needed flexbox to create the designed layout so far. I had a suspicion it would be a combination of grid and flexbox because of the column + row layout within the basket container but an extra block wrapper took care of that. I've finished with the mobile design and am about to embark on adjustments so the page scales per requirements.
+
 ### Continued development
 
-I need to do some more reading around when to use grid and when to use flexbox.
+Do I really need so many decorative wrappers? I am unhappy with the number I felt were needed in order to layout the design per the spec and can't help but think I've misunderstood or misapplied flexbox. I'll do some more reading - perhaps I don't need flexbox but should have used grid or both, or maybe I've missed some essential property that would streamline my markup.
 
 ### Useful resources
 
